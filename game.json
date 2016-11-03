@@ -1,0 +1,85 @@
+{
+"day1":
+{
+"BasicInfo": "[b]SSN:[/b] 000-29-2201\n[b]Name:[/b] Dennis Pinkman\n[b]Gender:[/b] Male\n[b]DOB (age):[/b] 6th of June, 1979 (37)\n[b]Address:[/b] N/A\n[b]Place of birth:[/b] Detroit, Michigan, USA\n[b]Race:[/b] Negroid\n[b]Citizenship:[/b] American\n[b]Background Check:[/b] [color=red]Failed[/color]",
+"CriminalRecord": "Served 23 months of prison after unwarranted use of a firearm (1 casualty).\nOn the police watchlist for engaging in gang-related activities.\nServed 3 months of prison for being in possession of illegal, intoxicating substances.",
+"ATF": "Have you ever been convicted of a felony?\nYes\n\nHave you ever been convicted of a misdemeanor crime of domestic violence?\nYes\n\nAre you an unlawful user of, or addicted to, marijuana or any other depressant, stimulant, narcotic drug, or any other controlled substance?\nYes\n\nAre you a fugitive from justice?\nYes\n\nHave you ever been committed to a mental institution?\nNo",
+"SellNewspaperHeader": "37-year-old man shot in the head with a shotgun",
+"SellNewspaperContent": "Yesterday, at around 11PM, a fire exchange occurred just outside of a 7/11. Police investigation tells us, that the shooting was aimed at one specific individual, however, he was not the only one killed. The man at the center, Dennis Pinkman, received many gunshots to the body but it was a shotgun to the face, fired by one of the survivors, who dealt the final blow. Dennis Pinkman was identified through dental records and the wallet in his pocket. In an attempt to defend himself, he killed 2 other gang members and wounded 3 before his body gave out. 2 civilians were killed in the crossfire. The wounded will be taken to the hospital, and will later be questioned in a court of law.\n\nPolice have started investigating the origin of Dennis Pinkman’s weapon. Pinkman does not pass the NICS (National Instant Criminal Background Check System) and it is therefore a federal crime to sell him a weapon. ",
+"RejectNewspaperHeader": "37-year-old man shot in the head with a shotgun",
+"RejectNewspaperContent": "Yesterday, at around 11PM, a fire exchange occurred just outside of a 7/11. Dennis Pinkman, a former gang-member, was killed by a shotgun to the face. He was identified through dental records and the wallet in his pocket. Police suspect the culprits to be former associates of his.",
+"SellDeaths" : 5,
+"RejectDeaths" : 1,
+"SellWounded" : 3,
+"RejectWounded" : 0,
+"Dialogue": {
+"c2array":true,
+"size":[1,5,1],
+"data":[[
+["[b]Customer:[/b] Hey, what’s up, dude? I eh… I really need a gun, bro… Like, for real. Will you sell me one? Like, right now?"], 
+["[b]You:[/b] Hey, calm down, my friend, we are in no rush. Why so desperate? You’re sweating!"], 
+["[b]Customer:[/b] I need it today, man, please! They’re after me, trust me! You’d be doing me a big favor, man! They are coming tomorrow! Definitely! If not sooner... Dude, I’m scared."], 
+["[b]You:[/b] Hey, take a breather there, my friend. Who exactly are coming for you?"], 
+["[b]Customer:[/b] Believe me, you don’t wanna know. What matters is, they are dangerous. Just help me, man. I’ll be toast if you ignore this. Help a brother out!"]
+]]
+},
+"WeaponCost": 150
+},
+"day2":
+{
+"BasicInfo":"[b]SSN:[/b] 000-43-7821\n[b]Name:[/b]  Jacob Eric Allen\n[b]Gender:[/b] Male\n[b]DOB (age):[/b] December 2nd, 1997 (18)\n[b]Address:[/b] N/A\n[b]Place of birth:[/b] Austin, Texas, USA\n[b]Race:[/b] Caucasian\n[b]Citizenship:[/b] American\n[b]Background Check:[/b] [color=green]OK[/color]",
+"CriminalRecord": "None.",
+"ATF": "Have you ever been convicted of a felony?\nNo\n\nHave you ever been convicted of a misdemeanor crime of domestic violence?\nNo\n\nAre you an unlawful user of, or addicted to, marijuana or any other depressant, stimulant, narcotic drug, or any other controlled substance?\nNo\n\nAre you a fugitive from justice?\nNo\n\nHave you ever been committed to a mental institution?\nNo",
+"SellNewspaperHeader": "18-year-old fends off invader",
+"SellNewspaperContent": "Yesterday in Austin, shots were fired from a small house on Pow Street. Luckily, nobody was injured, which Jacob Allen deserves full credit for. Jacob and his family of seven were victims of a home invasion, however, the young man was able to scare of the burglar before he was able to do any serious damage. Jacob’s only comment was: “God bless the Second Amendment!”.\nThis whole exchange has caught the attention of the authorities in more ways than one. As it turns out, Jacob and his family were in a very bad financial and sanitary situation, and are now receiving help.",
+"RejectNewspaperHeader": "Mother killed during home invasion",
+"RejectNewspaperContent": "Yesterday in Austin, shots were fired from a small house on Pow Street. One woman was murdered and a 18 year old boy is now in critical condition. 2 other children were injured but doctors expect a full recovery. 6 children in total were living in the house, and arrangements are being made for them to be sent to a foster home.",
+"SellDeaths" : 0,
+"RejectDeaths" : 1,
+"SellWounded" : 0,
+"RejectWounded" : 3,
+"Dialogue": {
+"c2array":true,
+"size":[1,9,1],
+"data":[[
+["[b]Customer:[/b] Good evening, sir, I would like to purchase a handgun. A Colt 1911!"], 
+["[b]You:[/b] Is that so? How old are you, boy?"], 
+["[b]Customer:[/b] Just turned 18, sir."], 
+["[b]You:[/b] 18 years old, you say? Are you sure about that?"], 
+["[b]Customer:[/b] Yes, of course!"],
+["[b]You:[/b] All right, then… Still… Aren’t you a little too young to be handling a firearm? Do you have any training? It’s up to me, whether or not I want to sell you anything. If I believe you look incapable of handling a firearm, it’s in my right to deny you."],
+["[b]Customer:[/b] What do you mean “too young”? I’m 18. In Texas, that’s old enough! I don’t have any training but… I really need the gun!"],
+["[b]You:[/b] I see… Speak up, then! "],
+["[b]Customer:[/b] Ehm… All right… So… You see… I have five siblings: 2 brothers and 3 sisters. The youngest is 3 years old, and the oldest just turned 11. My father died a couple of weeks ago… Shot by the police… Now it’s up to my mother and myself to take care of them, and my mother is never really… Clear in the head. We live in the bad side of the neighbourhood and my siblings feel unsafe. My father used to be the man of the house but now it’s up to me! That’s why I need a gun! I need to be able to defend my family! … Sir. Please, consider it."]
+]]
+},
+"WeaponCost": 150
+},
+"day3":
+{
+"BasicInfo": "[b]SSN:[/b] 000-57-4931\n[b]Name:[/b] Paul Leonard Johnson\n[b]Gender:[/b] Male\n[b]DOB (age):[/b] 9th of august, 1958 (58)\n[b]Address:[/b] N/A\n[b]Place of birth:[/b] Austin, Texas, USA\n[b]Race:[/b] Caucasian\n[b]Citizenship:[/b] American\n[b]Background Check:[/b] [color=red]Failed[/color]",
+"CriminalRecord": "Served 5 years of prison for armed robbery during which he injured a staff member. No casualties (In 1978).",
+"ATF": "Have you ever been convicted of a felony?\nYes\n\nHave you ever been convicted of a misdemeanor crime of domestic violence?\nNo\n\nAre you an unlawful user of, or addicted to, marijuana or any other depressant, stimulant, narcotic drug, or any other controlled substance?\nNo\n\nAre you a fugitive from justice?\nNo\n\nHave you ever been committed to a mental institution?\nNo",
+"SellNewspaperHeader": "Big catch by small family",
+"SellNewspaperContent": "Local family father, Paul Leonard Johnson, makes Guinness World Records for catching the biggest salmon ever. In an interview Paul said: “My family and I will honor this badboy by eating every last bit of him.” The salmon weighed in at 200 pounds. ",
+"RejectNewspaperHeader": "Husband and wife left their newborn behind",
+"RejectNewspaperContent": "Local family father, Paul Leonard Johnson, takes his own life after his wife was stabbed by a thief in front of his eyes. He stabbed himself in the heart. In a suicide note, he blames gun control and writes: “This could have been avoided but you wouldn’t let me! You know who you are…”. It is still unclear, what will happen to the 2 year old daughter he left behind.",
+"SellDeaths" : 0,
+"RejectDeaths" : 2,
+"SellWounded" : 0,
+"RejectWounded" : 0,
+"Dialogue": {
+"c2array":true,
+"size":[1,6,1],
+"data":[[
+["[b]Customer:[/b] Good afternoon, sir, I would like to purchase a handgun."], 
+["[b]You:[/b] All right, you just go ahead and take a look.\nWhy do you want to buy a gun, if you don’t mind me asking?"], 
+["[b]Customer:[/b] Well, I have recently made some big changes in my life. I have started a family, even though it’s pretty late for my age. I know you were thinking it… I’ve just started fishing, as well, which I enjoy very much. I want to protect my family more than anything in the world, and I have finally put my past behind me. I feel like a handgun would be really helpful, if I want to be a protective family father. I’m just trying to make the best of the years I have left."], 
+["[b]You:[/b] I see, I see. I like your way of thinking. Excuse me if I’m being rude but I have to ask these questions: have you ever had any kind of problems with weapons in your past?"], 
+["[b]Customer:[/b] *sigh* … Of course… I am not very proud of it but… yes, there have been some issues, however… Ah, screw it, I’m just gonna be completely honest. I’ve been involved in armed robbery once but you probably already knew that, didn’t you? It was a long time ago, though! And a man can change. I promise you, I’m not the same person anymore. I served my time. Please, sir, can you look the other way? I will pay you double!"],
+["[b]You:[/b] Hmm… That’s a very serious crime…"]
+]]
+},
+"WeaponCost": 300
+}
+}
